@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: aquamarine;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+}
+
+#days-list {
+    list-style: none;
+    padding: 0;
+}
+
+#days-list li {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    border: #000;
+    border-radius: 4%;
+    background-color: rgb(53, 49, 49);
+}
+
+#days-list li:hover {
+    background-color: rgb(92, 66, 66);
+}
+
+#days-list a {
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 18px;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-task {
+    flex: 1;
+    padding: 5px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background: rgb(44, 42, 42);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aquamarine;
+}
+
+.delete {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
